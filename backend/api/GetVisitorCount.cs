@@ -26,7 +26,7 @@ public class GetVisitorCount
     {
         var response = req.CreateResponse(HttpStatusCode.OK);
         response.Headers.Add("Content-Type", "application/json; charset=utf-8");
-        response.Headers.Add("Access-Control-Allow-Origin", "*");
+        //response.Headers.Add("Access-Control-Allow-Origin", "*");
         string jsonString = JsonSerializer.Serialize(counter);
         await response.WriteStringAsync(jsonString);
         counter.Count += 1;

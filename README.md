@@ -4,8 +4,11 @@ This is my Cloud Resume Challenge built on Azure. It's a static website hosted o
 ![azure-resume](./architecture.png)
 
 ## Demo
-Coming soon
+[View it live here :)](https://cloudresume.balezy.com/)
 
 ## Structure
 - `frontend/` : Folder contains the website.
     - `main.js` : Folder contains visitor counter code.
+- `backend/api/` : Folder contains the dotnet API deployed on Azure Functions.
+    - `Counter.cs` : Contains the visitor counter code.
+- `.github/workflows/` : Folder contains CI/CD workflow configurations.
