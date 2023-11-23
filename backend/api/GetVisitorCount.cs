@@ -14,6 +14,7 @@ public class GetVisitorCount
     // {
     //     _logger = loggerFactory.CreateLogger<GetVisitorCount>();
     // }
+    // a comment to test github actions
     public GetVisitorCount(ILogger<GetVisitorCount> logger)
     {
         _logger = logger;
